@@ -1,7 +1,7 @@
 [![Build Status](https://dev.azure.com/shotgun-ecosystem/Toolkit/_apis/build/status/Configs/tk-config-default2?branchName=master)](https://dev.azure.com/shotgun-ecosystem/Toolkit/_build/latest?definitionId=49&branchName=master)
 
 -------------------------------------------------------------------------
-The Shotgun Pipeline Toolkit Default Configuration
+The Shotgun Pipeline Toolkit Configuration for Omstudios
 -------------------------------------------------------------------------
 
 Welcome to the Shotgun Pipeline Toolkit default configuration!
