@@ -1,0 +1,21 @@
+# Copyright (c) 2013 Shotgun Software Inc.
+# 
+# CONFIDENTIAL AND PROPRIETARY
+# 
+# This work is provided "AS IS" and subject to the Shotgun Pipeline Toolkit 
+# Source Code License included in this distribution package. See LICENSE.
+# By accessing, using, copying or modifying this work you indicate your 
+# agreement to the Shotgun Pipeline Toolkit Source Code License. All rights 
+# not expressly granted therein are reserved by Shotgun Software Inc.
+
+# the type of dynamic content
+type: "shotgun_step"
+
+# the shotgun field to use for the folder name
+name: "sg_folder_name"
+
+# create_with_parent: false
+
+# These should only exist in the mograph structure.
+# NOTE: if this is adjusted, you have to change the filter in the mograph branch as well !
+# filters: [ { "path": "short_name", "relation": "not_in", "values": [ "mog2D", "mog3D"  ] } ]

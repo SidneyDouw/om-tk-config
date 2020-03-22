@@ -48,9 +48,9 @@ primary:
 
     # these paths will be populated by the associated local storage in Shotgun
     # at setup time.
-    mac_path:
-    linux_path:
-    windows_path:
+    mac_path: /mnt/filer07/raid_p
+    linux_path: /Volumes/file07/raid_p
+    windows_path: P:\
 
     # indicates that this is the default storage root
     default: true
