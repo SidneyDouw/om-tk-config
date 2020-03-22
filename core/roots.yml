@@ -52,6 +52,8 @@ primary:
     linux_path: /Volumes/file07/raid_p
     windows_path: P:\
 
+    shotgun_storage_id: 49
+
     # indicates that this is the default storage root
     default: true
 
