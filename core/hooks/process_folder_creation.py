@@ -224,6 +224,8 @@ def update_root_path(path):
         log.debug('Updating root_path "%s" to "%s', root_path, local_root_path)
 
         # replace root path with local root path (from environ variable)
-        path = os.path.join(path.replace(root_path, local_root_path), project_folder)
+        path = os.path.join(local_root_path, project_folder)
+
+        # log.debug('Using path "%s"', path)
 
     return path
