@@ -51,6 +51,8 @@ settings.tk-desktop.project:
     - "*Photoshop*"
     - "*After*"
     - "*Effects*"
+    - "*Cinema*"
+    - "*Substance*"
     name: Creative Tools
   - matches:
     - "*Hiero*"
