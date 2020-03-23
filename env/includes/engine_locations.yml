@@ -107,3 +107,19 @@ engines.tk-vred.location:
   type: app_store
   name: tk-vred
   version: v2.0.4
+
+# -- Cinema
+engines.tk-cinema.location:
+  type: github_release
+  organization: mikedatsik
+  repository: tk-cinema
+  version: v1.0.0
+
+# substancepainter
+# Make sure to check for latest versions of the engine here and update the
+# version section of the git description below accordingly.
+# https://github.com/diegogarciahuerta/tk-substancepainter/releases
+engines.tk-substancepainter.location:
+  type: git
+  path: https://github.com/diegogarciahuerta/tk-substancepainter
+  version: v1.1.1

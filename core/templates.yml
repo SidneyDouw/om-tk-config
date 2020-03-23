@@ -185,6 +185,14 @@ keys:
         format_spec: "05"
         alias: SEQ
 
+    # Substance
+    texture_extension:
+        type: str
+        alias: extension
+
+    texture_name:
+        type: str
+
 
 #
 # The paths section contains all the the key locations where files are to be stored
@@ -247,6 +255,27 @@ paths:
 ##########################################################################################
 # Sequence level paths
 #
+
+    #
+    # Cinema 4D
+    #
+
+    # # define the location of a work area
+    # sequence_work_area_cinema:
+    #     definition: '@sequence_root/work/cinema'
+    # # define the location of a publish area
+    # sequence_publish_area_cinema:
+    #     definition: '@sequence_root/publish/cinema'
+    # # The location of WIP files
+    # cinema_sequence_work:
+    #     definition: '@sequence_root/work/cinema/{name}.v{version}.c4d'
+    # # The location of backups of WIP files
+    # cinema_sequence_snapshot:
+    #     definition: '@sequence_root/work/cinema/snapshots/{name}.v{version}.{timestamp}.c4d'
+    # # The location of published cinema files
+    # cinema_sequence_publish:
+    #     definition: '@sequence_root/publish/cinema/{name}.v{version}.c4d'
+
 
 
 ##########################################################################################
@@ -451,6 +480,7 @@ paths:
     nuke_shot_render_movie:
         definition: '@shot_review_root/nuke/@shot_filename.mov'
 
+
     #
     # Hiero
     #
@@ -460,6 +490,29 @@ paths:
         definition: '@shot_input_root/@shot_filename.mov'
     hiero_render_path:
         definition: '@shot_input_root/@shot_filename/@shot_filename.{SEQ}.exr'
+
+
+    #
+    # Cinema 4D
+    #
+
+    # define the location of a work area
+    shot_work_area_cinema:
+        definition: '@shot_work_root/cinema'
+    # define the location of a publish area
+    shot_publish_area_cinema:
+        definition: '@shot_publish_root/cinema'
+    # The location of WIP files
+    cinema_shot_work:
+        definition: '@shot_work_root/cinema/@shot_filename.c4d'
+    # The location of backups of WIP files
+    cinema_shot_snapshot:
+        definition: '@shot_work_root/cinema/snapshots/@shot_filename.{timestamp}.c4d'
+    # The location of published cinema files
+    cinema_shot_publish:
+        definition: '@shot_publish_root/cinema/@shot_filename.c4d'
+
+    
 
 ##########################################################################################
 # Asset pipeline
@@ -728,6 +781,62 @@ paths:
     # vred_asset_render_sequence_publish:
     #     definition: '@asset_publish_root/images/{name}/v{version}/{Asset}_{name}_v{version}[-{vred.render_pass}]-{vred.frame}.{vred.render_extension}'
 
+
+    #
+    # Cinema 4D
+    #
+
+    # define the location of a work area
+    asset_work_area_cinema:
+        definition: '@asset_work_root/cinema'
+    # define the location of a publish area
+    asset_publish_area_cinema:
+        definition: '@asset_publish_root/cinema'
+    # The location of WIP files
+    cinema_asset_work:
+        definition: '@asset_work_root/cinema/@asset_filename.c4d'
+    # The location of backups of WIP files
+    cinema_asset_snapshot:
+        definition: '@asset_work_root/cinema/snapshots/@asset_filename.{timestamp}.c4d'
+    # The location of published cinema files
+    cinema_asset_publish:
+        definition: '@asset_publish_root/cinema/@asset_filename.c4d'
+
+    
+    #
+    # Substance Painter
+    #
+
+    # define the location of a work area
+    asset_work_area_substancepainter:
+        definition: '@asset_work_root/substancepainter'
+    # define the location of a publish area
+    asset_publish_area_substancepainter:
+        definition: '@asset_publish_root/substancepainter'
+
+    # The location of WIP files
+    substancepainter_asset_work:
+        definition: '@asset_work_area_substancepainter/@asset_filename.spp'
+
+    # The location of backups of WIP files
+    substancepainter_asset_snapshot:
+        definition: '@asset_work_area_substancepainter/snapshots/@asset_filename.{timestamp}.spp'
+
+    # The folder where the textures are exported for a project
+    substancepainter_asset_textures_path_export:
+        definition: '@asset_work_area_substancepainter/export'
+
+    # The location of published substance painter files
+    substancepainter_asset_publish:
+        definition: '@asset_publish_area_substancepainter/@asset_filename.spp'
+
+    # a texture folder publish
+    substancepainter_asset_textures_path_publish:
+        definition: '@asset_publish_area_substancepainter/textures/{Asset}_textures_v{version}'
+
+    # a texture folder publish
+    substancepainter_asset_texture_path_publish:
+        definition: '@asset_publish_area_substancepainter/textures/{Asset}_{texture_name}_v{version}.{texture_extension}'
 
 #
 # The strings section is similar to the paths section - but rather than defining paths
