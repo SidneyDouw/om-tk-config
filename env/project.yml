@@ -32,6 +32,7 @@ includes:
 - ./includes/settings/tk-shotgun.yml
 - ./includes/settings/tk-cinema.yml
 - ./includes/settings/tk-substancepainter.yml
+- ./includes/settings/tk-unreal.yml
 
 ################################################################################
 # configuration for all engines to load in a project context
@@ -56,6 +57,7 @@ engines:
   tk-shotgun: "@settings.tk-shotgun.project"
   tk-cinema: "@settings.tk-cinema.project"
   tk-substancepainter: "@settings.tk-substancepainter.project"
+  tk-unreal: "@settings.tk-unreal.project"
 
 ################################################################################
 # reference all of the common frameworks

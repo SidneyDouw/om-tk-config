@@ -123,3 +123,10 @@ engines.tk-substancepainter.location:
   type: git
   path: https://github.com/diegogarciahuerta/tk-substancepainter
   version: v1.1.1
+
+# Unreal
+engines.tk-unreal.location:
+  type: github_release
+  organization: ue4plugins
+  repository: tk-unreal
+  version: v1.0.0

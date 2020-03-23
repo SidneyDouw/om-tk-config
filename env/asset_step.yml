@@ -31,6 +31,7 @@ includes:
 - ./includes/settings/tk-shotgun.yml
 - ./includes/settings/tk-cinema.yml
 - ./includes/settings/tk-substancepainter.yml
+- ./includes/settings/tk-unreal.yml
 
 ################################################################################
 # configuration for all engines to load in an asset step context
@@ -53,6 +54,7 @@ engines:
   tk-shotgun: "@settings.tk-shotgun.asset_step"
   tk-cinema: "@settings.tk-cinema.asset_step"
   tk-substancepainter: "@settings.tk-substancepainter.asset_step"
+  tk-unreal: "@settings.tk-unreal.asset_step"
 
 ################################################################################
 # reference all of the common frameworks
