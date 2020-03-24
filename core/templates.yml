@@ -543,9 +543,9 @@ paths:
 
     # level sequence review output from unreal
     unreal_movie_publish:
-        definition: '@shot_review_root/unreal/{level_sequence}_{world}.v{version}.avi'
+        definition: '@shot_review_root/realtime/unreal/{level_sequence}_{world}.v{version}.avi'
     unreal_shot_publish:
-        definition: '@shot_publish_root/unreal/@shot_filename.nk'
+        definition: '@shot_publish_root/realtime/unreal/@shot_filename.nk'
 
 
     
@@ -883,7 +883,7 @@ paths:
     # Hook implementation intended to be a starting point for a pipeline
     # No context info used in template, developers expected to further customize
     unreal_asset_publish:
-        definition: '@asset_publish_root/unreal/@asset_filename.fbx'
+        definition: '@asset_publish_root/realtime/unreal/@asset_filename.fbx'
 
 #
 # The strings section is similar to the paths section - but rather than defining paths

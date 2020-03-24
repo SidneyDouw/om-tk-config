@@ -58,15 +58,15 @@ primary:
     # default: true
 
 
-remote:
+# remote:
 
-    description: ""
+#     description: ""
 
-    mac_path: 
-    linux_path: 
-    windows_path:
+#     mac_path: 
+#     linux_path: 
+#     windows_path:
 
-    shotgun_storage_id: 81
+#     shotgun_storage_id: 81
 
 
 # ------------------------------------------------------------------------------
