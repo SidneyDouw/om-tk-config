@@ -55,7 +55,7 @@ primary:
     shotgun_storage_id: 45
 
     # indicates that this is the default storage root
-    default: true
+    # default: true
 
 
 remote:

@@ -120,9 +120,9 @@ class ProcessFolderCreation(Hook):
                     # folder creation
                     path = i.get("path")
 
-                    # Update the root path to use an environment variable if the original
-                    # root path does not exist 
-                    path = update_root_path(path)
+                    # # Update the root path to use an environment variable if the original
+                    # # root path does not exist 
+                    # path = update_root_path(path)
 
                     if not os.path.exists(path):
                         if not preview_mode:
@@ -221,7 +221,7 @@ def update_root_path(path):
         # get SHOTGUN_PATH_WINDOWS env var
         local_root_path = os.getenv('SHOTGUN_PATH_WINDOWS')
 
-        log.debug('Updating root_path "%s" to "%s', root_path, local_root_path)
+        log.debug('Updating root_path "%s" to "%s"', root_path, local_root_path)
 
         # replace root path with local root path (from environ variable)
         path = os.path.join(local_root_path, project_folder)
