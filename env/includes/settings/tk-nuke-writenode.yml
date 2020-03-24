@@ -35,35 +35,56 @@ settings.tk-nuke-writenode.asset:
 settings.tk-nuke-writenode.shot:
   template_script_work: nuke_shot_work
   write_nodes:
+  # - file_type: exr
+  #   name: Stereo Exr, 32 bit
+  #   proxy_publish_template:
+  #   proxy_render_template:
+  #   publish_template: nuke_shot_render_pub_stereo
+  #   render_template: nuke_shot_render_stereo
+  #   settings:
+  #     datatype: 32 bit float
+  #   tank_type: Rendered Image
+  #   tile_color: []
+  #   promote_write_knobs: []
+  # - file_type: exr
+  #   name: Stereo Exr, 16 bit
+  #   promote_write_knobs: []
+  #   proxy_publish_template:
+  #   proxy_render_template:
+  #   publish_template: nuke_shot_render_pub_stereo
+  #   render_template: nuke_shot_render_stereo
+  #   settings:
+  #     datatype: 16 bit half
+  #   tank_type: Rendered Image
+  #   tile_color: []
+  # - file_type: dpx
+  #   name: Mono Dpx
+  #   promote_write_knobs: []
+  #   proxy_publish_template:
+  #   proxy_render_template:
+  #   publish_template: nuke_shot_render_pub_mono_dpx
+  #   render_template: nuke_shot_render_mono_dpx
+  #   settings: {}
+  #   tank_type: Rendered Image
+  #   tile_color: []
   - file_type: exr
-    name: Stereo Exr, 32 bit
+    name: EXR, 16 bit
+    promote_write_knobs: []
     proxy_publish_template:
     proxy_render_template:
-    publish_template: nuke_shot_render_pub_stereo
-    render_template: nuke_shot_render_stereo
-    settings:
-      datatype: 32 bit float
-    tank_type: Rendered Image
-    tile_color: []
-    promote_write_knobs: []
-  - file_type: exr
-    name: Stereo Exr, 16 bit
-    promote_write_knobs: []
-    proxy_publish_template:
-    proxy_render_template:
-    publish_template: nuke_shot_render_pub_stereo
-    render_template: nuke_shot_render_stereo
+    publish_template: nuke_shot_render_pub_exr
+    render_template: nuke_shot_render_exr
     settings:
       datatype: 16 bit half
     tank_type: Rendered Image
     tile_color: []
-  - file_type: dpx
-    name: Mono Dpx
+  - file_type: jpg
+    name: JPG
     promote_write_knobs: []
     proxy_publish_template:
     proxy_render_template:
-    publish_template: nuke_shot_render_pub_mono_dpx
-    render_template: nuke_shot_render_mono_dpx
+    publish_template: nuke_shot_render_pub_jpg
+    render_template: nuke_shot_render_jpg
     settings: {}
     tank_type: Rendered Image
     tile_color: []
