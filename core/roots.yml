@@ -51,8 +51,7 @@ primary:
     linux_path:
     windows_path:
 
-    # shotgun_storage_id: 45
-    shotgun_storage_id: 81
+    shotgun_storage_id: 45
 
     # indicates that this is the default storage root
     default: true
