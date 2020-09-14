@@ -30,4 +30,4 @@ path.windows.hiero: C:\Program Files\Nuke9.0v6\Nuke9.0.exe
 # RV
 path.linux.rv: "rv"
 path.mac.rv: "/Applications/RV.app"
-path.windows.rv: C:\Program Files\Shotgun\RV-7.7.0\bin\rv.exe
+path.windows.rv: C:\Program Files\Shotgun\RV-7.8.0\bin\rv.exe
