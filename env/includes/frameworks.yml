@@ -24,10 +24,9 @@ frameworks:
   # adminui - provides GUIs for administrative commands
   tk-framework-adminui_v0.x.x:
     location:
-      version: v0.5.2
+      version: v0.6.0
       type: app_store
       name: tk-framework-adminui
-
   # desktopserver - provides a server to run local commands.
   tk-framework-desktopserver_v1.x.x:
     location:
@@ -52,10 +51,9 @@ frameworks:
   # shotgunutils v5 - Shotgun Related Utilities
   tk-framework-shotgunutils_v5.x.x:
     location:
-      version: v5.7.3
+      version: v5.7.6
       type: app_store
       name: tk-framework-shotgunutils
-
   # widget - QT Widget Framework for Tank Apps (qtwidgets fw predecessor)
   tk-framework-widget_v0.2.x:
     location:
@@ -73,7 +71,7 @@ frameworks:
   # unrealqt - PySide build for Unreal (Windows-only)
   tk-framework-unrealqt_v1.x.x:
     location:
-      type: git_branch
       path: https://github.com/shotgunsoftware/tk-framework-unrealqt.git
+      version: 58c2f7b81156c7b5fafa778419549950c702f4ce
+      type: git_branch
       branch: master
-      version: 58c2f7b

@@ -27,38 +27,42 @@ includes:
 settings.tk-alias.asset:
   apps:
     tk-multi-about:
-      location: "@apps.tk-multi-about.location"
-    tk-multi-shotgunpanel: "@settings.tk-multi-shotgunpanel.alias"
-    tk-multi-workfiles2: "@settings.tk-multi-workfiles2.alias"
+      location: '@apps.tk-multi-about.location'
+    tk-multi-shotgunpanel: '@settings.tk-multi-shotgunpanel.alias'
+    tk-multi-workfiles2: '@settings.tk-multi-workfiles2.alias'
   menu_favourites:
   - {app_instance: tk-multi-workfiles2, name: File Open...}
-  location: "@engines.tk-alias.location"
-
+  location: '@engines.tk-alias.location'
 # asset_step
 settings.tk-alias.asset_step:
   apps:
     tk-multi-about:
-      location: "@apps.tk-multi-about.location"
-    tk-multi-breakdown: "@settings.tk-multi-breakdown.alias"
-    tk-multi-loader2: "@settings.tk-multi-loader2.alias"
-    tk-multi-publish2: "@settings.tk-multi-publish2.alias.asset_step"
-    tk-multi-shotgunpanel: "@settings.tk-multi-shotgunpanel.alias"
-    tk-multi-snapshot: "@settings.tk-multi-snapshot.alias.asset_step"
-    tk-multi-workfiles2: "@settings.tk-multi-workfiles2.alias.asset_step"
+      location: '@apps.tk-multi-about.location'
+    tk-multi-breakdown: '@settings.tk-multi-breakdown.alias'
+    tk-multi-loader2: '@settings.tk-multi-loader2.alias'
+    tk-multi-publish2: '@settings.tk-multi-publish2.alias.asset_step'
+    tk-multi-shotgunpanel: '@settings.tk-multi-shotgunpanel.alias'
+    tk-multi-snapshot: '@settings.tk-multi-snapshot.alias.asset_step'
+    tk-multi-workfiles2: '@settings.tk-multi-workfiles2.alias.asset_step'
   menu_favourites:
   - {app_instance: tk-multi-workfiles2, name: File Open...}
   - {app_instance: tk-multi-snapshot, name: Snapshot...}
   - {app_instance: tk-multi-workfiles2, name: File Save...}
   - {app_instance: tk-multi-publish2, name: Publish...}
-  location: "@engines.tk-alias.location"
-
+  location: '@engines.tk-alias.location'
 # project
 settings.tk-alias.project:
   apps:
     tk-multi-about:
-      location: "@apps.tk-multi-about.location"
-    tk-multi-shotgunpanel: "@settings.tk-multi-shotgunpanel.alias"
-    tk-multi-workfiles2: "@settings.tk-multi-workfiles2.alias"
+      location: '@apps.tk-multi-about.location'
+    tk-multi-shotgunpanel: '@settings.tk-multi-shotgunpanel.alias'
+    tk-multi-workfiles2: '@settings.tk-multi-workfiles2.alias'
   menu_favourites:
   - {app_instance: tk-multi-workfiles2, name: File Open...}
-  location: "@engines.tk-alias.location"
+  location: '@engines.tk-alias.location'
+frameworks:
+  tk-framework-aliastranslations_v0.x.x:
+    location:
+      version: v0.1.1
+      type: app_store
+      name: tk-framework-aliastranslations

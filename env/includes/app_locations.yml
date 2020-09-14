@@ -23,13 +23,13 @@ includes:
 apps.tk-multi-about.location:
   type: app_store
   name: tk-multi-about
-  version: v0.3.0
+  version: v0.3.1
 
 # breakdown
 apps.tk-multi-breakdown.location:
   type: app_store
   name: tk-multi-breakdown
-  version: v1.7.0
+  version: v1.7.1
 
 # demo
 apps.tk-multi-demo.location:
@@ -53,13 +53,13 @@ apps.tk-multi-loader2.location:
 apps.tk-multi-publish2.location:
   type: app_store
   name: tk-multi-publish2
-  version: v2.5.0
+  version: v2.5.4
 
 # pythonconsole
 apps.tk-multi-pythonconsole.location:
   type: app_store
   name: tk-multi-pythonconsole
-  version: v1.2.1
+  version: v1.2.3
 
 # reviewsubmission
 apps.tk-multi-reviewsubmission.location:
@@ -89,7 +89,7 @@ apps.tk-multi-shotgunpanel.location:
 apps.tk-multi-snapshot.location:
   type: app_store
   name: tk-multi-snapshot
-  version: v0.8.0
+  version: v0.8.1
 
 # workfiles (required for Mari)
 apps.tk-multi-workfiles.location:
@@ -101,7 +101,7 @@ apps.tk-multi-workfiles.location:
 apps.tk-multi-workfiles2.location:
   type: app_store
   name: tk-multi-workfiles2
-  version: v0.12.1
+  version: v0.12.3
 
 # dev utils
 apps.tk-multi-devutils.location:
@@ -115,7 +115,7 @@ apps.tk-multi-devutils.location:
 apps.tk-shotgun-folders.location:
   type: app_store
   name: tk-shotgun-folders
-  version: v0.1.7
+  version: v0.2.0
 
 # shotgun launchfolder
 apps.tk-shotgun-launchfolder.location:
@@ -149,13 +149,13 @@ apps.tk-hiero-openinshotgun.location:
 apps.tk-houdini-alembicnode.location:
   type: app_store
   name: tk-houdini-alembicnode
-  version: v0.3.1
+  version: v0.4.1
 
 # houdini mantranode
 apps.tk-houdini-mantranode.location:
   type: app_store
   name: tk-houdini-mantranode
-  version: v0.3.1
+  version: v0.4.1
 
 # ---- Nuke apps
 
